@@ -1,0 +1,15 @@
+Musico(BI,morada_pk, telefone_musico);
+
+Morada(id_morada, nome_morada, telefone_morada);
+
+Album(id_album, título, data, enum formato(CD, CD Single), pk_produtor);
+
+Instrumento(id_instrumento, nome_instrumento, tonalidade_pk);
+
+Tonalidade(id_tonalidade, nome_tonalidade);
+
+Partipação(pk_musica, pk_participante);
+
+Musica(id_musica, título, autor);
+
+Toca(pk_musico, pk_instrumento); 
